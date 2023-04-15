@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: coral;
+    font-family: 'Alkatra', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: coral;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+.nav.link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 2px solid crimson;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+    font: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url(./Img/pexels-cottonbro-studio-7594054.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: wheat;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: crimson;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: darksalmon;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transform: 0.5s;
+}
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./Img/pexels-jenkin-shen-15318570.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5rem;
+}
+.news{
+    background-color: coral;
+    color: black;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background-color: beige;
+    margin-left: -10px;
+    border: 2px solid beige;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid beige;
+    outline: none;
+    background: peachpuff;
+    color: black;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: beige;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+/* Desktop styles */
+.some-class {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Media query for tablet devices */
+  @media only screen and (max-width: 768px) {
+    /* Tablet styles */
+    .some-class {
+      font-size: 16px;
+      color: #777;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    /* Mobile styles */
+    .some-class {
+      font-size: 14px;
+      color: #aaa;
+    }
+  }
+
+  
